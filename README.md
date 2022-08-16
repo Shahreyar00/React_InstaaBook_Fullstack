@@ -1,4 +1,4 @@
-#### This is the fullstack version of the instaaboook booking web app.
+#### This is the fullstack version of the instaaboook web app.
 #### Here you get various functionalities as the frontend is connected to a database
 * You have the option to sign in or register
 * You can search hotels according to various parameters like cities, price, etc.
