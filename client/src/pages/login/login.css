@@ -1,0 +1,95 @@
+.logContainer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707367.jpg?k=cbacfdeb8404af56a1a94812575d96f6b80f6740fd491d02c6fc3912a16d8757&o=&hp=1")
+    center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logWrapper{
+    width: 450px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    background: #7baef436;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    backdrop-filter: blur(15px);
+    border: 2px solid #febb02;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #003580;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+form>input{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    border: none;
+    outline: none;
+}
+
+form>button{
+    width: 40%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #003580;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+form>.btn-2{
+    width: 100%;
+    background-color: rgb(214, 84, 84);
+    color: white;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+.err{
+    font-size: 15px;
+    color: rgb(212, 40, 40);
+}
+
+.forPass{
+    cursor: not-allowed;
+    font-size: 12px;
+    color: black;
+}
+
+.forReg{
+    font-size: 14px;
+    color: #003580;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .logWrapper{
+        width: 85%;
+    }
+}

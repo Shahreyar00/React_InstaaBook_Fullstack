@@ -1,0 +1,138 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.arrowUp{   
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0071c2;
+    color: #febb02;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex: 1.8;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.lsTitle{
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 10px;
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.lsItem>label{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.lsItem>input{
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.lsItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lsOptions{
+    padding: 5px;
+}
+
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.lsOptionInput{
+    width: 50px;
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.listSearch>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.listResult{
+    flex: 3;
+}
+
+@media screen and (max-width:768px){
+    .listContainer{
+        margin-top: 0px;
+    }
+
+    .listWrapper{
+        flex-direction: column;
+    }
+
+    .listSearch{
+        margin-left: 0;
+        position: static;
+    }
+
+    .arrowUp{
+        left: 10px;
+        bottom: 10px;
+    }
+}
+
+
+
+
+
