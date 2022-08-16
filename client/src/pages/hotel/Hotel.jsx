@@ -115,10 +115,10 @@ const Hotel = () => {
                         </div>
                     )}
                     <div className="hotelWrapper">
-                        <h1 className="hotelTitle">Comfort Suites Airport</h1>
+                        <h1 className="hotelTitle">{data.name}</h1>
                         <div className="hotelAddress">
                             <FontAwesomeIcon icon={faLocationDot} />
-                            <span>Airport City, Delhi</span>
+                            <span>{data.address}</span>
                         </div>
                         <span className="hotelDistance">Excellent location – 500m from center </span>
                         <span className="hotelPriceHighlight">Book a stay over Rs.4000 at this property and get a free airport taxi</span>
